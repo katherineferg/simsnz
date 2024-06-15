@@ -10,26 +10,6 @@ seo:
    no_index: false
 content_blocks:
    -
-      _bookshop_name: global/header
-      title: Sims New Zealand
-      title_suffix:
-      description: >-
-         At Sims, we are keen to help. Browse the site to view our comprehensive
-         range of reliable products.
-
-
-         We are involved in both exporting and importing. We showcase quality
-         products for New Zealand's farmers and lifestylers.
-
-
-         Our attendance at tradeshows in Australia and throughout New Zealand,
-         enables us to keep updated on new inventions which complement our
-         product range.
-
-
-         &nbsp;
-      no_top_pad: false
-   -
       _bookshop_name: home/hero
       title: Sims New Zealand
       description: >-
@@ -44,10 +24,10 @@ content_blocks:
          Our attendance at tradeshows in Australia and throughout New Zealand,
          enables us to keep updated on new inventions which complement our
          product range.
-      image_path: /images/hero/hero-image-2.png
       link:
          text: Try This Free
          url: /#
+      image_path: /images/hero/hero-image-2.png
    -
       _bookshop_name: global/counter
       title: Scale your
@@ -124,33 +104,4 @@ content_blocks:
          link: /#
          text: Try This Free
       reversed: false
-   -
-      _bookshop_name: global/testimonial
-      title: Build relationships that
-      title_suffix: last
-      description: >-
-         Customers from around the world are building game changing email
-         marketing campaigns.
-      slider:
-         -
-            image_path: /images/testimonial/logo-2.jpg
-            author: Pete Fish
-            designation: CMO at Clear Appeal
-            message: >-
-               Sendit has taken Clear Appeal to the next level with it's
-               beautiful targetted email campaigns.
-         -
-            image_path: /images/testimonial/logo-3.jpg
-            author: Dolly Watson
-            designation: Digital Marketer at Time Cop
-            message: >-
-               Wow, what a difference Sendit has made. My customers are more
-               engaged than ever.
-         -
-            image_path: /images/testimonial/logo-4.jpg
-            author: Simon Moriarty
-            designation: Head of Marketing at Pinnacle Mines
-            message: >-
-               I can't imagine life without Sendit now, I have no idea how we
-               were surviving before.
 ---
