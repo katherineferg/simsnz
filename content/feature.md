@@ -1,12 +1,13 @@
 ---
+_schema: default
 title: Feature
 seo:
-  page_description: 
-  canonical_url: 
-  featured_image: 
-  author_twitter_handle: 
-  open_graph_type:
-  no_index: false
+   page_description:
+   canonical_url:
+   featured_image:
+   author_twitter_handle:
+   open_graph_type:
+   no_index: false
 content_blocks:
    -
       _bookshop_name: feature/hero
@@ -20,18 +21,19 @@ content_blocks:
       image_path: /images/feature/feature-hero.png
    -
       _bookshop_name: global/header
-      title: "Sendit "
+      title: 'Sendit '
       title_suffix: Features
       description: >-
-         Sendit is the most complete solution to create beautiful email designs, manage mails and send them out at the best price.
+         Sendit is the most complete solution to create beautiful email designs,
+         manage mails and send them out at the best price.
+      no_top_pad: false
    -
       _bookshop_name: global/feature
       image_path: /images/feature/feature-card-one.png
       title: Simply click and send
       description: >-
          Make your message stand out, thanks to the guided copywriting and
-         design features, triggering a positive response from your
-         customers.
+         design features, triggering a positive response from your customers.
       btn:
          link: /#
          text: Try This Free
@@ -41,8 +43,8 @@ content_blocks:
       image_path: /images/feature/feature-card-two.png
       title: See every lead in one place
       description: >-
-         Sales analytics and automation made simple: see every sales lead
-         in one place, regardless of where it came from.
+         Sales analytics and automation made simple: see every sales lead in one
+         place, regardless of where it came from.
       btn:
          link: /#
          text: Try This Free
@@ -53,8 +55,8 @@ content_blocks:
       title: Free templates to get you started
       description: >-
          SendIt is used by everyone from small businesses to fortune 500
-         companies. Browse our collection of email marketing templates and
-         start sending beautiful emails in minutes.
+         companies. Browse our collection of email marketing templates and start
+         sending beautiful emails in minutes.
       btn:
          link: /#
          text: Try This Free
