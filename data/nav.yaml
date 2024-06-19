@@ -8,7 +8,7 @@ items:
     text: Feature
     enable_dropdown: false
     dropdown:
-  - link:
+  - link: /products/
     text: Products
     enable_dropdown: true
     dropdown:
