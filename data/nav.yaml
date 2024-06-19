@@ -8,10 +8,14 @@ items:
     text: Feature
     enable_dropdown: false
     dropdown:
-  - link: /pricing/
-    text: Pricing
-    enable_dropdown: false
+  - link: /products/
+    text: Products
+    enable_dropdown: true
     dropdown:
+      - dropdown_text: Marine
+        dropdown_link: /marine/
+      - dropdown_text: Agriculture
+        dropdown_link: /agriculture/
   - link: /about/
     text: About
     enable_dropdown: false
