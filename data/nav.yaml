@@ -4,10 +4,6 @@ items:
     text: Home
     enable_dropdown: false
     dropdown:
-  - link: /feature/
-    text: Feature
-    enable_dropdown: false
-    dropdown:
   - link: /products/
     text: Products
     enable_dropdown: true
@@ -16,16 +12,6 @@ items:
         dropdown_link: /marine/
       - dropdown_text: Agriculture
         dropdown_link: /agriculture/
-  - link: /blog/
-    text: Blog
-    enable_dropdown: true
-    dropdown:
-      - dropdown_text: All Articles
-        dropdown_link: /blog
-      - dropdown_text: Marketing
-        dropdown_link: /categories/marketing
-      - dropdown_text: Technology
-        dropdown_link: /categories/technology
   - link: /contact/
     text: Contact
     enable_dropdown: false
