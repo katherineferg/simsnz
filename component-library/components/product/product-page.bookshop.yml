@@ -11,6 +11,15 @@ spec:
 blueprint:
   title: Products
   description: Our range
+  products:
+    - title:
+      description:
+      image:
+        image_path:
+        image_alt:
+      
+
+
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
