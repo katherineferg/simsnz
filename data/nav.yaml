@@ -16,10 +16,6 @@ items:
         dropdown_link: /marine/
       - dropdown_text: Agriculture
         dropdown_link: /agriculture/
-  - link: /about/
-    text: About
-    enable_dropdown: false
-    dropdown:
   - link: /blog/
     text: Blog
     enable_dropdown: true
