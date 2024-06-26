@@ -28,15 +28,4 @@ content_blocks:
          text: Try This Free
          url: /#
       image_path: /images/hero/hero-image-2.png
-   -
-      _bookshop_name: global/feature
-      image_path: /images/feature/feature-card-one.png
-      title: Simply click and send
-      description: >-
-         Make your message stand out, thanks to the guided copywriting and
-         design features, triggering a positive response from your customers.
-      btn:
-         link: /#
-         text: Try Free
-      reversed: false
 ---
