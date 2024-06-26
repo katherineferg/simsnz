@@ -28,4 +28,9 @@ content_blocks:
          text: Try This Free
          url: /#
       image_path: /images/hero/hero-image-2.png
+   -
+      _bookshop_name: product-page
+      title: Products
+      description: Our range
+      products: []
 ---
