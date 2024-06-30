@@ -13,7 +13,6 @@ blueprint:
   description: Our range
   products:
     - title:
-      description:
       image:
         image_path:
         image_alt:
