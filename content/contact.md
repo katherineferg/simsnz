@@ -10,7 +10,7 @@ seo:
   no_index: false
 content_blocks:
   - _bookshop_name: contact/hero
-    title: Contact
+    title: Contact Us
     description: |-
       Have a question or suggestion? Feel free to get in touch.
 
