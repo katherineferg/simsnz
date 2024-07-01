@@ -10,8 +10,9 @@ seo:
    no_index: false
 content_blocks:
    -
-      _bookshop_name: about/hero
+      _bookshop_name: global/header
       title: Sims New Zealand
+      title_suffix:
       description: >-
          At Sims, we are keen to help. Browse the site to view our comprehensive
          range of reliable products.
@@ -24,8 +25,5 @@ content_blocks:
          Our attendance at tradeshows in Australia and throughout New Zealand,
          enables us to keep updated on new inventions which complement our
          product range.
-      hero_images: []
-      link:
-         text: Try Free
-         url: /#
+      no_top_pad: false
 ---
