@@ -7,3 +7,5 @@ sections:
     links:
       - link: /
         text: Home
+      - link: /contact/
+        text: Contact
