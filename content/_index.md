@@ -26,4 +26,23 @@ content_blocks:
          enables us to keep updated on new inventions which complement our
          product range.
       no_top_pad: false
+   -
+      _bookshop_name: global/feature
+      image_path: /images/banner.jpg
+      title: At Sims, we are keen to help.
+      description: >-
+         Browse the site to view our comprehensive range of reliable products.
+
+
+         We are involved in both exporting and importing. We showcase quality
+         products for New Zealand's farmers and lifestylers.
+
+
+         Our attendance at tradeshows in Australia and throughout New Zealand,
+         enables us to keep updated on new inventions which complement our
+         product range.
+      btn:
+         link: /products/
+         text: Products
+      reversed: false
 ---
