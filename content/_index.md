@@ -10,6 +10,14 @@ seo:
    no_index: false
 content_blocks:
    -
+      _bookshop_name: global/header
+      title: Sims New Zealand
+      title_suffix:
+      description: >-
+         Sendit is the most complete solution to create beautiful email designs,
+         manage mails and send them out at the best price.
+      no_top_pad: false
+   -
       _bookshop_name: global/feature
       image_path: /images/banner.jpg
       title: At Sims, we are keen to help.
@@ -28,12 +36,4 @@ content_blocks:
          link: /products/
          text: Products
       reversed: false
-   -
-      _bookshop_name: global/header
-      title: Sims New Zealand
-      title_suffix:
-      description: >-
-         Sendit is the most complete solution to create beautiful email designs,
-         manage mails and send them out at the best price.
-      no_top_pad: false
 ---
