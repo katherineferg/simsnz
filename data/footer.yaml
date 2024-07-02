@@ -3,7 +3,7 @@ logo_url: /home
 copyright: Sims NZ, Inc.
 social: []
 sections:
-  - title: Home
+  - title:
     links:
-      - link: /home/
+      - link: /
         text: Home
