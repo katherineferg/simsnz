@@ -21,7 +21,8 @@ content_blocks:
       title:
       description: >-
          Browse the site to view our comprehensive range of reliable <a
-         href="/products/" rel="noreferrer nofollow">products</a>.
+         href="https://master-avocado.cloudvent.net/products/" rel="noreferrer
+         nofollow">products</a>.
 
 
          We are involved in both exporting and importing. We showcase quality
