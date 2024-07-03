@@ -20,7 +20,8 @@ content_blocks:
       image_path: /images/banner.jpg
       title:
       description: >-
-         Browse the site to view our comprehensive range of reliable products.
+         Browse the site to view our comprehensive range of reliable <a
+         href="/products/" rel="noreferrer nofollow">products</a>.
 
 
          We are involved in both exporting and importing. We showcase quality
