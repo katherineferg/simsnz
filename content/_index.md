@@ -20,9 +20,7 @@ content_blocks:
       image_path: /images/banner.jpg
       title:
       description: >-
-         Browse the site to view our comprehensive range of reliable <a
-         href="https://master-avocado.cloudvent.net/products/" rel="noreferrer
-         nofollow">products</a>.
+         Browse the site to view our comprehensive range of reliable products.
 
 
          We are involved in both exporting and importing. We showcase quality
