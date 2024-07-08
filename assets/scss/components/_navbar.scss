@@ -62,6 +62,11 @@
   }
 }
 
+.navbar-brand img {
+   height: 70px;
+   width: 70px;
+}
+
 // Custom navbar navigation (doesn't require `.nav`, but does make use of `.nav-link`).
 
 .navbar-nav {
