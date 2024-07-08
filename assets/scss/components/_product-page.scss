@@ -7,7 +7,7 @@
         grid-column: 2 / -2;
         display: grid;
         grid-template-columns: 1fr;
-        gap: 24px;
+        gap: 1rem;
 
         @media screen and (min-width: 576px) {
             grid-template-columns: repeat(2, 1fr);
@@ -38,16 +38,24 @@
         height: 100%;
         align-items: flex-start;
         justify-content: flex-start;
-        transition: transform 0.3s ease;
+        transition: transform 0.3s ease, box-shadow 0.3s ease; 
+        padding: 0.5rem;
 
         &:hover {
-            transform: translateY(-5px);
+            // transform: translateY(-5px);
+            // box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Added shadow on hover */
+            cursor: pointer;
+
+            .c-product-page__card__content__link {
+                text-decoration: underline;
+            }
         }
 
         &__wrapper {
             display: flex;
             flex-direction: column;
             gap: 1.13rem;
+            flex-grow: 1;
         }
 
         &__image {
@@ -62,19 +70,27 @@
         &__content {
             text-align: left;
             width: 100%;
+            margin-top: auto;
             
             &__title {
                 font-size: 1.25rem;
                 font-weight: 500;
-                margin-bottom: 0px;
+                margin-bottom: 0.5rem;
                 color: #333;
             }
 
             &__description {
                 font-size: 1rem;
                 color: #666;
-                margin-top: 0px;
                 line-height: 1.5;
+                margin-bottom: 0.5rem;
+            }
+
+            &__link {
+                display: inline-block;
+                font-size: 0.875rem;
+                text-decoration: none;
+                
             }
         }
     }
