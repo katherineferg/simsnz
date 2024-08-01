@@ -11,7 +11,7 @@ seo:
 content_blocks:
    -
       _bookshop_name: global/header
-      title: Sims New Zealandd
+      title: Sims New Zealand
       title_suffix:
       description: At Sims, we are keen to help.
       no_top_pad: false
