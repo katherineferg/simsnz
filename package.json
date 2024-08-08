@@ -9,7 +9,7 @@
     "init": "npx @bookshop/init@latest",
     "hugo-server": "hugo server -D --watch",
     "build": "hugo --source ./ --destination public --baseURL /",
-    "bookshop": "npx @bookshop/browser@latest",
+    "bookshop": "npx @bookshop/browser",
     "bookshop-update": "npx @bookshop/up@latest",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
