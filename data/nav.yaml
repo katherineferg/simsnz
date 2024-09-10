@@ -8,6 +8,8 @@ items:
     text: Products
     enable_dropdown: true
     dropdown:
+      - dropdown_text: All Products
+        dropdown_link: /products/
       - dropdown_text: Marine
         dropdown_link: /marine/
       - dropdown_text: Agriculture

@@ -1,0 +1,68 @@
+{{ define "main" }}
+{{ $c := "c-product" }}
+
+<section class="{{ $c }}">
+    <div class="{{ $c }}__header">
+        <h1>{{ .Title }}</h1>
+    </div>
+
+    {{ partial "breadcrumbs.html" . }}
+    
+    <div class="{{ $c }}__content">
+        {{ with .Params.product_image }}
+        <div class="{{ $c }}__image">
+            <img src="{{ .image_path }}" alt="{{ .image_alt }}"/>
+        </div>
+        {{ end }}
+
+        <div class="{{ $c }}__info">
+            {{ if .Params.price }}
+            <p class="{{ $c }}__price">Price: {{ .Params.price }}</p>
+            {{ end }}
+
+            {{ if .Params.features }}
+            <div class="{{ $c }}__section">
+                <h2>Features</h2>
+                <ul class="{{ $c }}__features">
+                    {{ range .Params.features }}
+                    <li>{{ . }}</li>
+                    {{ end }}
+                </ul>
+            </div>
+            {{ end }}
+
+            {{ if .Params.specifications }}
+            <div class="{{ $c }}__section">
+                <h2>Specifications</h2>
+                <ul class="{{ $c }}__specifications">
+                    {{ range $key, $value := .Params.specifications }}
+                    <li><strong>{{ $key }}:</strong> {{ $value }}</li>
+                    {{ end }}
+                </ul>
+            </div>
+            {{ end }}
+            
+            {{ if not (or .Params.price .Params.features .Params.specifications) }}
+            <div class="{{ $c }}__description">
+                <p>{{ .Params.description | markdownify }}</p>
+                <div class="{{ $c }}__enquire">
+                    <a href="/contact" class="c-button">Enquire</a>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+
+    {{ if (or .Params.price .Params.features .Params.specifications) }}
+    <div class="{{ $c }}__description">
+        <p>{{ .Params.description | markdownify }}</p>
+        <div class="{{ $c }}__enquire">
+            <a href="/contact" class="c-button">Enquire</a>
+        </div>
+    </div>
+    {{ end }}
+
+    
+</section>
+
+{{ end }}

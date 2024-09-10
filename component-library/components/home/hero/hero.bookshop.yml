@@ -11,6 +11,7 @@ spec:
 blueprint:
   title: Beautiful email campaigns
   description: With Sendit, you can quickly create beautiful rich emails that capture a reader’s attention, engage them, and convert them into customers.
+  image_path: ""
   link:
     text: "Try Free"
     url: "/#"

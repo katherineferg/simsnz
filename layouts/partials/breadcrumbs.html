@@ -1,0 +1,20 @@
+{{ $c := "c-breadcrumb" }}
+{{ $relPermalink := .RelPermalink }}
+
+{{ if ne $relPermalink "/products/" }}
+    <nav aria-label="breadcrumb" class="{{ $c }}">
+        <ul>
+            <li><a href="/products">Products</a></li>
+            {{ $segments := split (trim $relPermalink "/") "/" }}
+            {{ $path := "/products" }}
+            {{ $lastIndex := sub (len $segments) 1 }}
+            {{ range $index, $segment := $segments }}
+                {{ if and (gt $index 0) (lt $index $lastIndex) }}
+                    {{ $path = printf "%s/%s" $path $segment }}
+                    <li><a href="{{ $path }}/">{{ humanize $segment }}</a></li>
+                {{ end }}
+            {{ end }}
+            <li><span>{{ .Title }}</span></li>
+        </ul>
+    </nav>
+{{ end }}

@@ -9,12 +9,14 @@ seo:
    open_graph_type:
    no_index: false
 content_blocks:
-   -
-      _bookshop_name: global/header
-      title: Sims New Zealand
-      title_suffix:
-      description: At Sims, we are keen to help.
-      no_top_pad: false
+   - _bookshop_name: home/hero 
+     title: Quality Products Trusted by New Zealand's Farmers and Lifestylers
+     description: >-
+      Browse the site to view our comprehensive range of reliable products.
+     image_path: /images/banner.jpg
+     link: 
+      text: Products
+      url: /products/ 
    -
       _bookshop_name: global/feature
       image_path: /images/banner.jpg
